@@ -5,5 +5,6 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base : '/smart-waste/',
+  base : '/Smart-Waste-Management-App/',
+  build: { outDir: '.'}
 })
